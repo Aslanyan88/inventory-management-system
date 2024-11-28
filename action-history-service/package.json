@@ -1,0 +1,27 @@
+{
+  "name": "action-history-service",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^20.17.9",
+    "@types/pg": "^8.11.10",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
